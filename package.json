@@ -1,0 +1,29 @@
+{
+  "name": "db_repository",
+  "version": "1.0.0",
+  "description": "",
+  "main": "connect_mysql.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mysql": "node connect_mysql.js",
+    "redis": "node connect_redis.js",
+    "mongo": "node connect_mongo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoCo9122/db_repository.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoCo9122/db_repository/issues"
+  },
+  "homepage": "https://github.com/CoCo9122/db_repository#readme",
+  "devDependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^4.13.0",
+    "mysql": "^2.18.1",
+    "redis": "^4.6.2"
+  }
+}
