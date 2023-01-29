@@ -3,7 +3,7 @@
 const mysql = require('mysql');
 
 const port = 3306
-const host = "localhost"
+const host = "db_repository-mydql-1"
 const user = "user"
 const password = "password"
 const database = "mysql000db"

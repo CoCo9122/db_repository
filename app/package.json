@@ -9,17 +9,6 @@
     "redis": "node connect_redis.js",
     "mongo": "node connect_mongo.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CoCo9122/db_repository.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CoCo9122/db_repository/issues"
-  },
-  "homepage": "https://github.com/CoCo9122/db_repository#readme",
   "devDependencies": {
     "express": "^4.18.2",
     "mongodb": "^4.13.0",

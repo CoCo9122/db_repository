@@ -1,7 +1,7 @@
 const mongodb = require('mongodb')
 const MongoClient = mongodb.MongoClient
 
-MongoClient.connect('mongodb://root:example@127.0.0.1:27017', (err, client) => {
+MongoClient.connect('mongodb://root:example@db_repository-mongo-1:27017', (err, client) => {
     const db = client.db('myDB')
     if (err) throw err
     console.log("Connected")

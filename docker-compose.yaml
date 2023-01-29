@@ -1,6 +1,15 @@
 version: "3"
 services:
 
+  node-app:
+    image: node:14-buster-slim
+    command: /bin/bash
+    tty: true
+    working_dir: /workspace
+    volumes:
+      - ./app:/workspace
+      - node_modules:/workspace/node_modules
+
   mydql:
     image: mysql
     volumes:
@@ -52,3 +61,4 @@ volumes:
   redis_data:
   mongodb_data:
   configdb_data:
+  node_modules:
